@@ -3,7 +3,7 @@
         <v-flex xs12 v-for="(c,i) in cardapio" :key="`c${i}`" class="text-center white--text mb-2">
             <div class="titleM">== {{c.title}} ==</div>
             <v-flex xs12 v-for="(s,i) in c.sector" :key="`sub${i}`" class="my-1">
-                <div v-if="!!s.title" class="subtitleM">● ● {{s.title}} ● ●</div>
+                <div v-if="!!s.title" class="subtitleM">◦ ◦ {{s.title}} ◦ ◦</div>
                 <v-flex xs12 v-for="(opc,i) in s.opc" :key="`opc${i}`" class="my-1">
                     <div class="optionM">{{opc.name}}</div>
                     <div v-if="!!opc.obs" class="suboptionM">( {{opc.obs}} )</div>
