@@ -34,6 +34,9 @@ export default {
                 behavior: 'smooth',
             })
         }
+    },
+    created(){
+        window.scrollTo(0,0);
     }
 };
 </script>
