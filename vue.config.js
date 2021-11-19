@@ -1,6 +1,5 @@
 module.exports = {
-  publicPath: '/milly-cardapio',
-  outputDir: 'docs',
+  publicPath: '/milly-cardapio/',
   transpileDependencies: [
     'vuetify'
   ]
